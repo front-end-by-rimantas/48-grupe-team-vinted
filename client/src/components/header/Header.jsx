@@ -1,21 +1,15 @@
 
 import {Logo} from '../Logo/Logo';
+import { Nav } from '../nav/Nav';
 import style from './Header.module.css';
 
 function Header(){
     return (
         <>
-        <header className={style.mainHeader + ' grey-bg'}>
+        <header className={style.header}>
              <Logo />
-            
         </header>
-        <header className='header2'>
-        <nav className={style.mainNav}>
-                    <a className={style.link} href="/">Home</a>
-                    <a className={style.link} href="/">About</a>
-                    <a className={style.link} href="/">Contact</a>
-                    </nav>
-        </header>
+         <Nav />
         </>
     );
 }

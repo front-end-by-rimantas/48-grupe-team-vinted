@@ -1,4 +1,6 @@
-.mainHeader{
+/* Header*/
+
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,5 +29,7 @@
  
 .link:hover{
     text-decoration: underline;
+    
+    
 }
 
