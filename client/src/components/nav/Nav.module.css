@@ -1,0 +1,31 @@
+/* Nav */
+
+.mainNav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.mainNav > .navLink {
+    padding: 0px 10px 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: grey;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.15s;
+}
+
+.mainNav > .navLink:hover{
+    background-color: rgba(218, 216, 216, 0.786);
+}
+
+.mainNav > .navLink.active{
+    color: black;
+    border-bottom: 2px solid rgb(0, 0, 141);
+}
+ 
+.link:hover{
+    text-decoration: underline;
+}
