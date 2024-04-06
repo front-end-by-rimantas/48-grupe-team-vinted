@@ -1,7 +1,7 @@
 
 import {Logo} from '../Logo/Logo';
 import style from './Header.module.css';
- 
+
 function Header(){
     return (
         <>
