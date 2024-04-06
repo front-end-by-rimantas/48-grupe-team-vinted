@@ -1,11 +1,11 @@
 import express from 'express';
 import cors from 'cors';
 
-const PORT = 4819;
+const PORT = 4818;
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:4818',
+    origin: 'http://localhost:4819',
 };
 
 app.use(cors(corsOptions));
