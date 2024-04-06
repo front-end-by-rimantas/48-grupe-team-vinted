@@ -1,0 +1,25 @@
+.mainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-bottom: 0.1rem solid #ccc;
+}
+ 
+.logo{
+    height: 3rem;
+}
+ 
+.mainNav{
+    display: flex;
+    gap: 2rem;
+}
+ 
+.link{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+ 
+.link:hover{
+    text-decoration: underline;
+}
