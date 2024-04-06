@@ -14,12 +14,6 @@ app.get('/', (req, res) => {
     return res.send('Home page');
 });
 
-app.get('/api/calc', (req, res) => {
-    return res.send(JSON.stringify({
-        result: 123,
-    }));
-});
-
 app.listen(PORT, () => {
     console.log(`http://localhost:${PORT}`);
 });
