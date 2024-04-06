@@ -7,11 +7,14 @@ function Header(){
         <>
         <header className={style.mainHeader + ' grey-bg'}>
              <Logo />
-            <nav className={style.mainNav}>
-                <a className={style.link} href="/">Home</a>
-                <a className={style.link} href="/">About</a>
-                <a className={style.link} href="/">Contact</a>
-            </nav>
+            
+        </header>
+        <header className='header2'>
+        <nav className={style.mainNav}>
+                    <a className={style.link} href="/">Home</a>
+                    <a className={style.link} href="/">About</a>
+                    <a className={style.link} href="/">Contact</a>
+                    </nav>
         </header>
         </>
     );

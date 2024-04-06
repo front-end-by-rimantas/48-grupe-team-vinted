@@ -23,3 +23,9 @@
 .link:hover{
     text-decoration: underline;
 }
+
+.header2 {
+    display: flex;
+    margin-left: 50rem;
+    padding: 1rem 2rem;
+}
