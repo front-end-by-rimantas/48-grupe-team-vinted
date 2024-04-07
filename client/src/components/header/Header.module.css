@@ -7,29 +7,3 @@
     padding: 0.5rem 2rem;
     border-bottom: 0.1rem solid #ccc;
 }
-
-
-/* .header2 {
-    justify-content: center;
-    display: flex;
-    margin-left: 50rem;
-    padding: 1rem 2rem;
-}  */
-
-.mainNav{
-    display: flex;
-    gap: 2rem;
-    padding: 10px;
-}
- 
-.link{
-    font-size: 1.4rem;
-    text-decoration: none;
-}
- 
-.link:hover{
-    text-decoration: underline;
-    
-    
-}
-

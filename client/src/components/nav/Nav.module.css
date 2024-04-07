@@ -11,21 +11,13 @@
 .mainNav > .navLink {
     padding: 0px 10px 0px 10px;
     font-size: 18px;
-    text-decoration: none;
+    line-height: 30px;
     color: grey;
-    border-bottom: 2px solid transparent;
+    text-decoration: none;
     transition-duration: 0.15s;
 }
 
 .mainNav > .navLink:hover{
+    text-decoration: none;
     background-color: rgba(218, 216, 216, 0.786);
-}
-
-.mainNav > .navLink.active{
-    color: black;
-    border-bottom: 2px solid rgb(0, 0, 141);
-}
- 
-.link:hover{
-    text-decoration: underline;
 }
