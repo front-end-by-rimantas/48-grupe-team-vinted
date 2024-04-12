@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { PramogosItemList } from "../pramogos-item-list/PramogosItemList";
 
 export function PagePramogos(){
     return (
@@ -55,7 +56,10 @@ export function PagePramogos(){
             </div>
 
             <hr />
-            
+
+            <PramogosItemList />
         </section>
+
     );
 }
+ 
